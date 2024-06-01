@@ -1,0 +1,43 @@
+button {
+    transition: all 1s ease-in-out;
+    outline: none;
+}
+button:hover {
+   cursor: pointer;
+   opacity: 1;
+   transform: scale(1.045);
+}
+a {
+    transition: all 1s ease-in-out;
+    outline: none;
+}
+a:hover {
+   cursor: pointer;
+   opacity: 1;
+   transform: scale(1.045);
+}
+.about-exclusives div  {
+    transition: all 1s ease-in-out;
+}
+.about-exclusives div:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+.about-section___aboot-img {
+    transition: all 1s ease-in-out;
+}
+.about-section___aboot-img:hover {
+  transform: 1.035;
+}
+.question__conteiner div {
+    transition: all 1s ease-in-out;
+}
+.question__conteiner div:hover {
+    background-color: var(--color-green);
+    b {
+        color: var(--color-white);
+    }
+    p {
+        color: var( --color-pink-white);
+    }
+} 

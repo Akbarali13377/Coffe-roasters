@@ -1,0 +1,109 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Create your plan
+        link(rel="shorctcut icon", href="../../assets/imgs/logo.png")
+        link(rel="stylesheet", href="../../scss/style.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer")
+    body 
+        include header 
+        main 
+            //- hero section planing
+            section.hero-section__planig-page
+                img(src="../../assets/imgs/Bitmap (1).jpg", alt="backound img (hot cofe)")
+                div.hero-section__about-box 
+                    h1 Create plan
+                    p Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.
+            //- creating your plan steps
+            section.craeting-plan__section.creating-p-section 
+                .creating-p___line 
+                    div.line__first 
+                    div.line__second 
+                    div.line__third
+                div.chooose-cofe___creating-section.creating-p__conteiner
+                    div 
+                        b 01
+                        strong  Pick your coffee
+                        p Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+                    div 
+                        b 02
+                        strong  Choose the frequency
+                        p Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+                    div 
+                        b 03
+                        strong  Receive and enjoy!
+                        p   We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.
+            //- choose plan month
+            section.choose-menu-plane__section 
+                div.choose-menu__qestion
+                    p How do you drink your coffee?
+                    div.question__conteiner 
+                        div
+                            b Capsule
+                            p Compatible with Nespresso systems and similar brewers  
+                        div 
+                            b Filter
+                            p For pour over or drip methods like Aeropress, Chemex, and V60
+                        div
+                            b Espresso
+                            p Dense and finely ground beans for an intense, flavorful experience
+                div.choose-menu__qestion
+                    p What type of coffee?
+                    div.question__conteiner 
+                        div
+                            b Single Origin
+                            p Distinct, high quality coffee from a specific family-owned farm
+                        div 
+                            b Decaf
+                            p Just like regular coffee, except the caffeine has been removed
+                        div
+                            b Blended
+                            p Combination of two or three dark roasted beans of organic coffees
+                div.choose-menu__qestion
+                    p How much would you like?
+                    div.question__conteiner 
+                        div
+                            b 250g
+                            p Perfect for the solo drinker. Yields about 12 delicious cups. 
+                        div 
+                            b 500g
+                            p Perfect option for a couple. Yields about 40 delectable cups.
+                        div
+                            b 1000g
+                            p Perfect for offices and events. Yields about 90 delightful cups.
+                div.choose-menu__qestion
+                    p Want us to grind them?
+                    div.question__conteiner 
+                        div
+                            b Wholebean
+                            p Best choice if you cherish the full sensory experience 
+                        div 
+                            b Filter
+                            p For drip or pour-over coffee methods such as V60 or Aeropress
+                        div
+                            b Cafetiére
+                            p Course ground beans specially suited for french press coffee
+                div.choose-menu__qestion
+                    p How often should we deliver?
+                    div.question__conteiner 
+                        div
+                            b Every
+                            p Compatible with Nespresso systems and similar brewers  
+                        div 
+                            b weeks
+                            p For pour over or drip methods like Aeropress, Chemex, and V60
+                        div
+                            b month
+                            p Dense and finely ground beans for an intense, flavorful experience
+            //- section.order-summary 
+                p Order Summary
+                b “I drink my coffee as Filter, with a Decaf type of bean. 250g ground ala Cafetiére, sent to me Every Week.”
+        include footer
+        script(src="../../js/script.js")                     
+        
+
+
+
+
